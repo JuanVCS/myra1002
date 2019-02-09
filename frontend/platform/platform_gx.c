@@ -178,7 +178,7 @@ static void get_environment_settings(int argc, char *argv[], void *args)
 #ifdef HW_DOL
    chdir("carda:/retroarch");
 #endif
-   getcwd(default_paths.core_dir, MAXPATHLEN);
+   getcwd(default_paths.core_dir, PATH_MAX);
    char *last_slash = strrchr(default_paths.core_dir, '/');
    if (last_slash)
       *last_slash = 0;
