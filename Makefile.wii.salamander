@@ -18,7 +18,7 @@ endif
 CC = $(DEVKITPPC)/bin/powerpc-eabi-gcc$(EXE_EXT)
 CXX = $(DEVKITPPC)/bin/powerpc-eabi-g++$(EXE_EXT)
 LD = $(DEVKITPPC)/bin/powerpc-eabi-ld$(EXE_EXT)
-ELF2DOL = $(DEVKITPPC)/bin/elf2dol$(EXE_EXT)
+ELF2DOL = $(DEVKITPRO)/tools/bin/elf2dol$(EXE_EXT)
 
 DOL_TARGET := retroarch-salamander_wii.dol
 ELF_TARGET := retroarch-salamander_wii.elf
